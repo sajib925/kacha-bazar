@@ -11,8 +11,13 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        inter: ["var(--font-inter)"]
-      }
+        inter: ["var(--font-inter)"],
+      },
+      backgroundImage: {
+        "hero-slider-1": "url('/image/slider-1.jpg')",
+        "hero-slider-2": "url('/image/slider-2.jpg')",
+        "hero-slider-3": "url('/image/slider-3.jpg')",
+      },
     },
   },
   plugins: [],
