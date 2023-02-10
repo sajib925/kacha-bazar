@@ -1,6 +1,8 @@
-import Footer from "@/components/Header/Footer";
+import CTA from "@/components/CTA/CTA";
+import GetConnect from "@/components/GetConnect/GetConnect";
 import Header from "@/components/Header/Header";
 import HeroSection from "@/components/HeroSection/HeroSection";
+import PopularProducts from "@/components/PopularProducts/PopularProducts";
 import Head from "next/head";
 import FeaturedSection from './../components/FeaturedSection/FeaturedSection';
 
@@ -17,6 +19,9 @@ export default function Home() {
         <Header />
         <HeroSection />
         <FeaturedSection />
+        <PopularProducts />
+        <CTA />
+        <GetConnect />
       </main>
     </>
   );
