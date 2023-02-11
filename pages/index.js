@@ -1,4 +1,6 @@
+import Contact from "@/components/Contanct/Contact";
 import CTA from "@/components/CTA/CTA";
+import Footer from "@/components/Footer/Footer";
 import GetConnect from "@/components/GetConnect/GetConnect";
 import Header from "@/components/Header/Header";
 import HeroSection from "@/components/HeroSection/HeroSection";
@@ -22,6 +24,8 @@ export default function Home() {
         <PopularProducts />
         <CTA />
         <GetConnect />
+        <Contact />
+        <Footer />
       </main>
     </>
   );

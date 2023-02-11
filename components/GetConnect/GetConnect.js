@@ -22,7 +22,7 @@ const GetConnect = () => {
               necessary product from our KachaBazar shop and get some special
               offer.
             </p>
-            <div className="mt-8">
+            <div className="mt-8 flex items-center justify-center">
               <a
                 className="mx-2"
                 target="_blank"
