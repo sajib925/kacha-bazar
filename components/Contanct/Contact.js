@@ -13,7 +13,7 @@ const Contact = () => {
             <CarIcon />
           </div>
           <div className="">
-            <span className="block font-serif text-sm font-medium leading-5">
+            <span className="block font-inter text-sm font-medium leading-5">
               Free Shipping From $500.00
             </span>
           </div>
@@ -23,7 +23,7 @@ const Contact = () => {
             <CallIcon />
           </div>
           <div className="">
-            <span className="block font-serif text-sm font-medium leading-5">
+            <span className="block font-inter text-sm font-medium leading-5">
               Support 24/7 At Anytime
             </span>
           </div>
@@ -33,17 +33,17 @@ const Contact = () => {
             <PaymentIcon />
           </div>
           <div className="">
-            <span className="block font-serif text-sm font-medium leading-5">
+            <span className="block font-inter text-sm font-medium leading-5">
               Secure Payment Totally Safe
             </span>
           </div>
         </div>
         <div className=" border-r border-gray-200 py-1 flex items-center justify-center bg-white">
           <div className="mr-3">
-           <OfferIcon />
+            <OfferIcon />
           </div>
           <div className="">
-            <span className="block font-serif text-sm font-medium leading-5">
+            <span className="block font-inter text-sm font-medium leading-5">
               Latest Offer Upto 20% Off
             </span>
           </div>

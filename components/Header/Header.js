@@ -1,13 +1,19 @@
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 import logo from "../../images/logo/logo-light.svg";
 import Image from "next/image";
 import BellIcon from "../SvgIcons/bellIcon";
 import CartIcon from "../SvgIcons/CartIcon";
 import ProfileIcon from "../SvgIcons/ProfileIocn";
-import Navbar from './../Navbar/Navbar';
+import Navbar from "./../Navbar/Navbar";
+import Footer from "./Footer";
+import CartPopup from './../CartPopup/CartPopup';
 
 const Header = () => {
+  const [isCartPopup, setIsCartPopup] = useState(false)
+  const handleCartPopup = () => {
+    setIsCartPopup(isCartPopup => !isCartPopup)
+  }
   return (
     <header className="bg-emerald-500 sticky top-0 z-20">
       <div className="max-w-screen-2xl mx-auto px-3 sm:px-10">
@@ -49,7 +55,10 @@ const Header = () => {
               <span className="absolute z-10 top-0 right-0 inline-flex items-center justify-center p-1 h-5 w-5 text-xs font-medium leading-none text-red-100 transform -translate-x-1/2 -translate-y-1/2 bg-red-500 rounded-full">
                 0
               </span>
-              <CartIcon />
+              <span onClick={handleCartPopup}>
+                <CartIcon />
+              </span>
+              
             </button>
             <button className="pl-5 text-white text-2xl font-bold">
               <ProfileIcon />
@@ -57,9 +66,29 @@ const Header = () => {
           </div>
         </div>
       </div>
+
+      {/* mobile nav */}
+
+      <Footer />
+
+      {/* mobile nav */}
+
       {/* navbar */}
 
       <Navbar />
+
+      {/* navbar */}
+
+      {/* cart popup */}
+
+      <div
+        className={`fixed top-0  z-30 text-center h-screen ${
+          isCartPopup ? "right-0" : "-right-[100%]"
+        }`}
+      >
+        <div className="fixed bg-black ease-out duration-300 opacity-100" onClick={handleCartPopup}></div>
+        <CartPopup handleCartPopup={handleCartPopup} />
+      </div>
     </header>
   );
 };

@@ -13,9 +13,9 @@ const Navbar = () => {
             <div className="max-w-7xl mx-auto">
               <div className="flex justify-between items-center md:justify-start md:space-x-10">
                 <nav className="md:flex space-x-10 items-center">
-                  <div className="relative font-serif">
+                  <div className="relative font-inter">
                     <button className="group inline-flex items-center py-2 hover:text-emerald-600 focus:outline-none">
-                      <span className="font-serif text-sm font-medium">
+                      <span className="font-inter text-sm font-medium">
                         Categories
                       </span>
                       <ArrowDownIcon />
@@ -23,19 +23,19 @@ const Navbar = () => {
                   </div>
                   <Link
                     href="/"
-                    className="font-serif mx-4 py-2 text-sm font-medium hover:text-emerald-600"
+                    className="font-inter mx-4 py-2 text-sm font-medium hover:text-emerald-600"
                   >
                     About Us
                   </Link>
                   <Link
                     href="/"
-                    className="font-serif mx-4 py-2 text-sm font-medium hover:text-emerald-600"
+                    className="font-inter mx-4 py-2 text-sm font-medium hover:text-emerald-600"
                   >
                     Contact Us
                   </Link>
-                  <div className="relative font-serif">
+                  <div className="relative font-inter">
                     <button className="group inline-flex items-center py-2 hover:text-emerald-600 focus:outline-none">
-                      <span className="font-serif text-sm font-medium">
+                      <span className="font-inter text-sm font-medium">
                         Pages
                       </span>
                       <ArrowDownIcon />
@@ -43,7 +43,7 @@ const Navbar = () => {
                   </div>
                   <Link
                     href="/"
-                    className="relative inline-flex items-center h-6 bg-red-100 font-serif ml-4 py-0 px-2 rounded text-sm font-medium text-red-500 hover:text-emerald-600"
+                    className="relative inline-flex items-center h-6 bg-red-100 font-inter ml-4 py-0 px-2 rounded text-sm font-medium text-red-500 hover:text-emerald-600"
                   >
                     Offers
                     <div className="absolute flex w-2 h-2 left-auto -right-1 -top-1">
@@ -62,13 +62,13 @@ const Navbar = () => {
         <div className="flex">
           <Link
             href="/"
-            className="font-serif mx-4 py-2 text-sm font-medium hover:text-emerald-600"
+            className="font-inter mx-4 py-2 text-sm font-medium hover:text-emerald-600"
           >
             Privacy Policy
           </Link>
           <Link
             href="/"
-            className="font-serif mx-4 py-2 text-sm font-medium hover:text-emerald-600"
+            className="font-inter mx-4 py-2 text-sm font-medium hover:text-emerald-600"
           >
             Terms & Conditions
           </Link>

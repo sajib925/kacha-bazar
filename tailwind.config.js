@@ -10,6 +10,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        cardLink: "#9CA3AF",
+        secondary: "#4B4B4B",
+      },
       fontFamily: {
         inter: ["var(--font-inter)"],
       },

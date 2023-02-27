@@ -1,5 +1,7 @@
+import CartButton from "@/components/CartButton/CartButton";
 import Contact from "@/components/Contanct/Contact";
 import CTA from "@/components/CTA/CTA";
+import DiscountProducts from "@/components/DiscountProducts/DiscountProducts";
 import Footer from "@/components/Footer/Footer";
 import GetConnect from "@/components/GetConnect/GetConnect";
 import Header from "@/components/Header/Header";
@@ -20,9 +22,11 @@ export default function Home() {
       <main>
         <Header />
         <HeroSection />
+        <CartButton />
         <FeaturedSection />
         <PopularProducts />
         <CTA />
+        <DiscountProducts />
         <GetConnect />
         <Contact />
         <Footer />

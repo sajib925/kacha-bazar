@@ -23,12 +23,11 @@ const HeroSection = () => {
             <div className="w-full group">
               <div className="bg-gray-50 h-full border-2 border-orange-500 transition duration-150 ease-linear transform group-hover:border-emerald-500 rounded shadow">
                 <div className="bg-orange-100 text-gray-900 px-6 py-2 rounded-t border-b flex items-center justify-center">
-                  <h3 className="text-base font-serif font-medium">
+                  <h3 className="text-base font-medium font-inter">
                     Latest Super Discount Active Coupon Code
                   </h3>
                 </div>
                 <div className="overflow-hidden">
-
                   {/* coupon top */}
 
                   <div className="coupon coupon-home mx-4 my-5 block md:flex lg:flex md:justify-between lg:justify-between items-center bg-white rounded-md shadow">
@@ -50,37 +49,37 @@ const HeroSection = () => {
                         />
                       </div>
                       <div className="ml-3">
-                        <div className="flex items-center font-serif">
-                          <h6 className="pl-1 text-base font-medium text-gray-600">
-                            <span className="text-lg md:text-xl lg:text-xl text-red-500 font-bold">
+                        <div className="flex items-center font-inter">
+                          <h6 className="pl-1 text-base font-medium text-gray-600 font-inter">
+                            <span className="text-lg md:text-xl lg:text-xl text-red-500 font-bold font-inter">
                               {"10"} {"%"}
                             </span>
                             Off
                           </h6>
-                          <div className="ml-2">
+                          <div className="ml-2 font-inter">
                             <span className="text-red-600 inline-block px-4 py-1 rounded-full font-medium text-xs bg-red-100">
                               Inactive
                             </span>
                           </div>
                         </div>
-                        <h2 className="pl-1 font-serif text-base text-gray-700 leading-6 font-semibold mb-2">
+                        <h2 className="pl-1 text-base text-gray-700 leading-6 font-semibold font-inter mb-2">
                           October Gift Voucher
                         </h2>
                         <span className="inline-block mb-2">
-                          <div className="flex items-center font-semibold">
-                            <span className="flex items-center justify-center bg-red-500 text-white text-sm font-serif font-semibold mx-1 px-2 py-1 rounded">
+                          <div className="flex items-center font-semibold font-inter">
+                            <span className="flex items-center justify-center bg-red-500 text-white text-sm font-inter font-semibold mx-1 px-2 py-1 rounded">
                               00
                             </span>
                             {" : "}
-                            <span className="flex items-center justify-center bg-red-500 text-white text-sm font-serif font-semibold mx-1 px-2 py-1 rounded">
+                            <span className="flex items-center justify-center bg-red-500 text-white text-sm font-inter font-semibold mx-1 px-2 py-1 rounded">
                               00
                             </span>
                             {" : "}
-                            <span className="flex items-center justify-center bg-red-500 text-white text-sm font-serif font-semibold mx-1 px-2 py-1 rounded">
+                            <span className="flex items-center justify-center bg-red-500 text-white text-sm font-inter font-semibold mx-1 px-2 py-1 rounded">
                               00
                             </span>
                             {" : "}
-                            <span className="flex items-center justify-center bg-red-500 text-white text-sm font-serif font-semibold mx-1 px-2 py-1 rounded">
+                            <span className="flex items-center justify-center bg-red-500 text-white text-sm font-inter font-semibold mx-1 px-2 py-1 rounded">
                               00
                             </span>
                           </div>
@@ -91,15 +90,15 @@ const HeroSection = () => {
                       <div className="info flex items-center">
                         <div className="w-full">
                           <div className="block">
-                            <div className="font-serif border border-dashed bg-emerald-50 py-1 border-emerald-300 rounded-lg text-center block">
+                            <div className="font-inter border border-dashed bg-emerald-50 py-1 border-emerald-300 rounded-lg text-center block">
                               <button className="block w-full">
-                                <span className="uppercase font-serif font-semibold text-sm leading-7 text-emerald-600">
+                                <span className="uppercase font-inter font-semibold text-sm leading-7 text-emerald-600">
                                   OCTOBER21
                                 </span>
                               </button>
                             </div>
                           </div>
-                          <p className="text-xs leading-4 text-gray-500 mt-2">
+                          <p className="text-xs font-inter leading-4 text-gray-500 mt-2">
                             * This coupon apply when shopping more then
                             <span className>
                               {"$"} {"500"}
@@ -111,7 +110,6 @@ const HeroSection = () => {
                   </div>
 
                   {/* coupon top */}
-
 
                   <div className="coupon coupon-home mx-4 my-5 block md:flex lg:flex md:justify-between lg:justify-between items-center bg-white rounded-md shadow">
                     <div className=" py-2 px-3 flex items-center justify-between ">
@@ -132,9 +130,9 @@ const HeroSection = () => {
                       </div>
 
                       <div className="md:border-l-2 lg:border-l-2 border-dashed relative px-4">
-                        <div className="flex items-center font-serif">
+                        <div className="flex items-center">
                           <h6 className="pl-1 text-base font-medium text-gray-600">
-                            <span className="text-lg md:text-xl lg:text-xl text-red-500 font-bold">
+                            <span className="text-lg font-inter md:text-xl lg:text-xl text-red-500 font-bold">
                               15%
                             </span>
                           </h6>
@@ -149,19 +147,19 @@ const HeroSection = () => {
                         </h2>
                         <span className="inline-block mb-2">
                           <div className="flex items-center font-semibold">
-                            <span className="flex items-center justify-center bg-emerald-500 text-white text-sm font-serif font-semibold mx-1 px-2 py-1 rounded">
+                            <span className="flex items-center justify-center bg-emerald-500 text-white text-sm font-inter font-semibold mx-1 px-2 py-1 rounded">
                               18
                             </span>
                             {" : "}
-                            <span className="flex items-center justify-center bg-emerald-500 text-white text-sm font-serif font-semibold mx-1 px-2 py-1 rounded">
+                            <span className="flex items-center justify-center bg-emerald-500 text-white text-sm font-inter font-semibold mx-1 px-2 py-1 rounded">
                               6
                             </span>
                             {" : "}
-                            <span className="flex items-center justify-center bg-emerald-500 text-white text-sm font-serif font-semibold mx-1 px-2 py-1 rounded">
+                            <span className="flex items-center justify-center bg-emerald-500 text-white text-sm font-inter font-semibold mx-1 px-2 py-1 rounded">
                               52
                             </span>
                             {" : "}
-                            <span className="flex items-center justify-center bg-emerald-500 text-white text-sm font-serif font-semibold mx-1 px-2 py-1 rounded">
+                            <span className="flex items-center justify-center bg-emerald-500 text-white text-sm font-inter font-semibold mx-1 px-2 py-1 rounded">
                               50
                             </span>
                           </div>
@@ -172,9 +170,9 @@ const HeroSection = () => {
                       <div className="info flex items-center">
                         <div className="w-full">
                           <div className="block">
-                            <div className="font-serif border border-dashed bg-emerald-50 py-1 border-emerald-300 rounded-lg text-center block">
+                            <div className="font-inter border border-dashed bg-emerald-50 py-1 border-emerald-300 rounded-lg text-center block">
                               <button className="block w-full">
-                                <span className="uppercase font-serif font-semibold text-sm leading-7 text-emerald-600">
+                                <span className="uppercase font-inter font-semibold text-sm leading-7 text-emerald-600">
                                   WINTER21
                                 </span>
                               </button>
@@ -201,9 +199,8 @@ const HeroSection = () => {
         <div className="bg-orange-100 px-10 py-6 rounded-lg mt-6 hidden lg:block">
           <div className="flex justify-between items-center">
             <div>
-              
-              <h1 className="font-serif text-xl">
-                <span className="text-emerald-600 font-bold">
+              <h1 className="font-inter text-xl">
+                <span className="text-emerald-600  font-bold">
                   100% Natural Quality
                 </span>{" "}
                 Organic Product
@@ -217,7 +214,7 @@ const HeroSection = () => {
             </div>
             <Link
               href="/"
-              className="text-sm font-serif font-medium px-6 py-2 bg-emerald-500 text-center rounded-full text-white hover:bg-emerald-700"
+              className="text-sm font-inter font-medium px-6 py-2 bg-emerald-500 text-center rounded-full text-white hover:bg-emerald-700"
             >
               Shop Now
             </Link>
