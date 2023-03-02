@@ -1,10 +1,50 @@
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import couponImg1 from "../../images/hero/ins3.jpg";
 import HeroSlider from "./HeroSlider";
 
 const HeroSection = () => {
+  /* The above code is a countdown timer. */
+  const [day, setDay] = useState("00");
+  const [hour, setHour] = useState("00");
+  const [minute, setMinute] = useState("00");
+  const [second, setSecond] = useState("00");
+
+  let interval;
+
+  /**
+   * It takes the current date and time and subtracts it from the date and time of the event.
+   */
+  const startTimer = () => {
+    const coundownDate = new Date("Apr 30 , 2023").getTime();
+
+    interval = setInterval(() => {
+      const now = new Date().getTime();
+      const distance = coundownDate - now;
+
+      const days = Math.floor(distance / (24 * 60 * 60 * 1000));
+      const hours = Math.floor(
+        (distance % (24 * 60 * 60 * 1000)) / (60 * 60 * 1000)
+      );
+      const minutes = Math.floor((distance % (60 * 60 * 1000)) / (60 * 1000));
+      const seconds = Math.floor((distance % (60 * 1000)) / 1000);
+
+      if (distance < 0) {
+        // Stop Timer
+        clearInterval(interval.current);
+      } else {
+        // Update State
+        setDay(days);
+        setHour(hours);
+        setMinute(minutes);
+        setSecond(seconds);
+      }
+    });
+  };
+
+  /* Calling the startTimer function. */
+  useEffect(() => startTimer());
   return (
     <section className="bg-white">
       <div className="mx-auto py-5 max-w-screen-2xl px-3 sm:px-10">
@@ -148,19 +188,19 @@ const HeroSection = () => {
                         <span className="inline-block mb-2">
                           <div className="flex items-center font-semibold">
                             <span className="flex items-center justify-center bg-emerald-500 text-white text-sm font-inter font-semibold mx-1 px-2 py-1 rounded">
-                              18
+                              {day}
                             </span>
                             {" : "}
                             <span className="flex items-center justify-center bg-emerald-500 text-white text-sm font-inter font-semibold mx-1 px-2 py-1 rounded">
-                              6
+                              {hour}
                             </span>
                             {" : "}
                             <span className="flex items-center justify-center bg-emerald-500 text-white text-sm font-inter font-semibold mx-1 px-2 py-1 rounded">
-                              52
+                              {minute}
                             </span>
                             {" : "}
                             <span className="flex items-center justify-center bg-emerald-500 text-white text-sm font-inter font-semibold mx-1 px-2 py-1 rounded">
-                              50
+                              {second}
                             </span>
                           </div>
                         </span>
