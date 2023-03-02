@@ -11,7 +11,7 @@ const CarIcon = () => {
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth="2"
-      ariaHidden="true"
+      aria-hidden="true"
       className="flex-shrink-0 h-4 w-4 text-emerald-600"
       viewBox="0 0 24 24"
     >

@@ -100,7 +100,7 @@ const HeroSection = () => {
                           </div>
                           <p className="text-xs font-inter leading-4 text-gray-500 mt-2">
                             * This coupon apply when shopping more then
-                            <span className>
+                            <span className="">
                               {"$"} {"500"}
                             </span>
                           </p>
@@ -180,7 +180,7 @@ const HeroSection = () => {
                           </div>
                           <p className="text-xs leading-4 text-gray-500 mt-2">
                             * This coupon apply when shopping more then
-                            <span className>
+                            <span className="">
                               {"$"} {"500"}
                             </span>
                           </p>

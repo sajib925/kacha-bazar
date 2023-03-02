@@ -6,7 +6,7 @@ const ArrowDownIcon = () => {
       fill="none"
       stroke="currentColor"
       strokeWidth="2"
-      ariaHidden="true"
+      aria-hidden="true"
       className="ml-1 h-3 w-3 group-hover:text-emerald-600"
       viewBox="0 0 24 24"
     >

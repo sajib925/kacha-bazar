@@ -197,7 +197,7 @@ const Footer = () => {
                       <LinkedinIcon />
                     </a>
                   </li>
-                  <li class="flex items-center mr-3 transition ease-in-out duration-500">
+                  <li className="flex items-center mr-3 transition ease-in-out duration-500">
                     <a
                       aria-label="Social Link"
                       rel="noreferrer"

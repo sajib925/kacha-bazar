@@ -17,138 +17,9 @@ import popularProductsImg16 from "../images/popular-products/img-16.jpg";
 import popularProductsImg17 from "../images/popular-products/img-17.jpg";
 import popularProductsImg18 from "../images/popular-products/img-18.jpg";
 
-export const popularProducts = [
-  {
-    id: "1",
-    img: popularProductsImg1,
-    name: "each",
-    title: "Green Leaf Lettuce",
-    price: "$ 14",
-  },
-  {
-    id: "2",
-    img: popularProductsImg2,
-    name: "1lb",
-    title: "Rainbow Chard",
-    price: "$ 12",
-  },
-  {
-    id: "3",
-    img: popularProductsImg3,
-    name: "5ct",
-    title: "Clementine",
-    price: "$ 13",
-  },
-  {
-    id: "4",
-    img: popularProductsImg4,
-    name: "3oz",
-    title: "Kale Sprouts",
-    price: "$ 15",
-  },
-
-  {
-    id: "5",
-    img: popularProductsImg5,
-    name: "4ct",
-    title: "Rainbow Peppers",
-    price: "$ 13",
-  },
-  {
-    id: "6",
-    img: popularProductsImg6,
-    name: "25gt",
-    title: "Blueberry",
-    price: "$ 15",
-  },
-  {
-    id: "7",
-    img: popularProductsImg7,
-    name: "each",
-    title: "Calabaza Squash",
-    price: "$ 14",
-  },
-
-  {
-    id: "8",
-    img: popularProductsImg8,
-    name: "1lb",
-    title: "Lettuce",
-    price: "$ 13",
-  },
-  {
-    id: "9",
-    img: popularProductsImg9,
-    name: "12ct",
-    title: "Radicchio",
-    price: "$ 12",
-  },
-  {
-    id: "10",
-    img: popularProductsImg10,
-    name: "each",
-    title: "Parsley",
-    price: "$ 15",
-  },
-  {
-    id: "11",
-    img: popularProductsImg11,
-    name: "25oz",
-    title: "Strawberrie",
-    price: "$ 14",
-  },
-  {
-    id: "12",
-    img: popularProductsImg12,
-    name: "35lb",
-    title: "Cauliflower",
-    price: "$ 12",
-  },
-
-  {
-    id: "13",
-    img: popularProductsImg13,
-    name: "1lb",
-    title: "Organic Purple Cauliflower",
-    price: "$ 15",
-  },
-  {
-    id: "14",
-    img: popularProductsImg14,
-    name: "1ct",
-    title: "Ahold Acorn Squash",
-    price: "$ 13",
-  },
-  {
-    id: "15",
-    img: popularProductsImg15,
-    name: "1lb",
-    title: "Bok Choy Cabbage",
-    price: "$ 14",
-  },
-
-  {
-    id: "16",
-    img: popularProductsImg16,
-    name: "25oz",
-    title: "Strawberries Package",
-    price: "$ 15",
-  },
-  {
-    id: "17",
-    img: popularProductsImg17,
-    name: "each",
-    title: "Aloe Vera Leaf",
-    price: "$ 18",
-  },
-  {
-    id: "18",
-    img: popularProductsImg18,
-    name: "5lb",
-    title: "Pineapple Imported",
-    price: "$ 17",
-  },
-];
+{
+  /* discount product image */
+}
 
 import discountProductsImg1 from "../images/discount-products/img-1.jpg";
 import discountProductsImg2 from "../images/discount-products/img-2.jpg";
@@ -165,6 +36,147 @@ import discountProductsImg12 from "../images/discount-products/img-12.jpg";
 import discountProductsImg13 from "../images/discount-products/img-13.jpg";
 import discountProductsImg14 from "../images/discount-products/img-14.jpg";
 
+{
+  /* discount product data */
+}
+
+export const popularProducts = [
+  {
+    id: "1",
+    img: popularProductsImg1,
+    name: "each",
+    title: "Green Leaf Lettuce",
+    price: 14,
+  },
+  {
+    id: "2",
+    img: popularProductsImg2,
+    name: "1lb",
+    title: "Rainbow Chard",
+    price: 12,
+  },
+  {
+    id: "3",
+    img: popularProductsImg3,
+    name: "5ct",
+    title: "Clementine",
+    price: 13,
+  },
+  {
+    id: "4",
+    img: popularProductsImg4,
+    name: "3oz",
+    title: "Kale Sprouts",
+    price: 15,
+  },
+
+  {
+    id: "5",
+    img: popularProductsImg5,
+    name: "4ct",
+    title: "Rainbow Peppers",
+    price: 13,
+  },
+  {
+    id: "6",
+    img: popularProductsImg6,
+    name: "25gt",
+    title: "Blueberry",
+    price: 15,
+  },
+  {
+    id: "7",
+    img: popularProductsImg7,
+    name: "each",
+    title: "Calabaza Squash",
+    price: 14,
+  },
+
+  {
+    id: "8",
+    img: popularProductsImg8,
+    name: "1lb",
+    title: "Lettuce",
+    price: 13,
+  },
+  {
+    id: "9",
+    img: popularProductsImg9,
+    name: "12ct",
+    title: "Radicchio",
+    price: 12,
+  },
+  {
+    id: "10",
+    img: popularProductsImg10,
+    name: "each",
+    title: "Parsley",
+    price: 15,
+  },
+  {
+    id: "11",
+    img: popularProductsImg11,
+    name: "25oz",
+    title: "Strawberrie",
+    price: 14,
+  },
+  {
+    id: "12",
+    img: popularProductsImg12,
+    name: "35lb",
+    title: "Cauliflower",
+    price: 12,
+  },
+
+  {
+    id: "13",
+    img: popularProductsImg13,
+    name: "1lb",
+    title: "Organic Purple Cauliflower",
+    price: 15,
+  },
+  {
+    id: "14",
+    img: popularProductsImg14,
+    name: "1ct",
+    title: "Ahold Acorn Squash",
+    price: 13,
+  },
+  {
+    id: "15",
+    img: popularProductsImg15,
+    name: "1lb",
+    title: "Bok Choy Cabbage",
+    price: 14,
+  },
+
+  {
+    id: "16",
+    img: popularProductsImg16,
+    name: "25oz",
+    title: "Strawberries Package",
+    price: 15,
+  },
+  {
+    id: "17",
+    img: popularProductsImg17,
+    name: "each",
+    title: "Aloe Vera Leaf",
+    price: 18,
+  },
+  {
+    id: "18",
+    img: popularProductsImg18,
+    name: "5lb",
+    title: "Pineapple Imported",
+    price: 17,
+  },
+];
+
+{
+  /* discount product data */
+}
+
 export const discountProducts = [
   {
     id: "1",
@@ -172,7 +184,7 @@ export const discountProducts = [
     offer: "21% Off",
     name: "each",
     title: "Organic Bell Pepper",
-    price: "$23",
+    price: 23,
     offerQuantity: "$10",
   },
   {
@@ -181,7 +193,7 @@ export const discountProducts = [
     offer: "12% Off",
     name: "1lb",
     title: "Rainbow Chard",
-    price: "$22",
+    price: 22,
     offerQuantity: "$10",
   },
   {
@@ -190,7 +202,7 @@ export const discountProducts = [
     offer: "21% Off",
     name: "5ct",
     title: "Clementine",
-    price: "$22",
+    price: "22",
     offerQuantity: "$10",
   },
   {
@@ -199,17 +211,16 @@ export const discountProducts = [
     offer: "21% Off",
     name: "3oz",
     title: "Kale Sprouts",
-    price: "$31",
+    price: 31,
     offerQuantity: "$10",
   },
-
   {
     id: "5",
     img: discountProductsImg5,
     offer: "21% Off",
     name: "4ct",
     title: "Rainbow Peppers",
-    price: "$32",
+    price: 32,
     offerQuantity: "$10",
   },
   {
@@ -218,7 +229,7 @@ export const discountProducts = [
     offer: "22% Off",
     name: "25gt",
     title: "Blueberry",
-    price: "$23",
+    price: 23,
     offerQuantity: "$14",
   },
   {
@@ -227,7 +238,7 @@ export const discountProducts = [
     offer: "12% Off",
     name: "each",
     title: "Calabaza Squash",
-    price: "$26",
+    price: 26,
     offerQuantity: "$13",
   },
 
@@ -237,7 +248,7 @@ export const discountProducts = [
     offer: "21% Off",
     name: "1lb",
     title: "Lettuce",
-    price: "$20",
+    price: 20,
     offerQuantity: "$10",
   },
   {
@@ -246,7 +257,7 @@ export const discountProducts = [
     offer: "21% Off",
     name: "12ct",
     title: "Radicchio",
-    price: "$26",
+    price: 26,
     offerQuantity: "$13",
   },
   {
@@ -255,7 +266,7 @@ export const discountProducts = [
     offer: "22% Off",
     name: "each",
     title: "Parsley",
-    price: "$22",
+    price: 22,
     offerQuantity: "$11",
   },
   {
@@ -264,7 +275,7 @@ export const discountProducts = [
     offer: "15% Off",
     name: "25oz",
     title: "Strawberrie",
-    price: "$30",
+    price: 23,
     offerQuantity: "$10",
   },
   {
@@ -273,7 +284,7 @@ export const discountProducts = [
     offer: "22% Off",
     name: "35lb",
     title: "Cauliflower",
-    price: "$26",
+    price: 26,
     offerQuantity: "$13",
   },
 
@@ -283,7 +294,7 @@ export const discountProducts = [
     offer: "21% Off",
     name: "1lb",
     title: "Organic Purple Cauliflower",
-    price: "$24",
+    price: 24,
     offerQuantity: "$12",
   },
   {
@@ -292,7 +303,7 @@ export const discountProducts = [
     offer: "20% Off",
     name: "1ct",
     title: "Ahold Acorn Squash",
-    price: "$ 22",
+    price: 22,
     offerQuantity: "$11",
   },
 ];
