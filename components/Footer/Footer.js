@@ -7,6 +7,7 @@ import TwitterIcon from './../SvgIcons/TwitterIcon';
 import  Image  from 'next/image';
 import footerLogo from "../../images/footer/logo-color.svg"
 import paymentLogo from "../../images/footer/payment-logo.png";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -20,36 +21,36 @@ const Footer = () => {
               </h3>
               <ul className="text-sm flex flex-col space-y-3">
                 <li className="flex items-baseline">
-                  <a
+                  <Link
                     className="text-gray-600 inline-block w-full hover:text-emerald-500"
                     href="/about-us"
                   >
                     About Us
-                  </a>
+                  </Link>
                 </li>
                 <li className="flex items-baseline">
-                  <a
+                  <Link
                     className="text-gray-600 inline-block w-full hover:text-emerald-500"
                     href="/contact-us"
                   >
                     Contact us
-                  </a>
+                  </Link>
                 </li>
                 <li className="flex items-baseline">
-                  <a
+                  <Link
                     className="text-gray-600 inline-block w-full hover:text-emerald-500"
                     href="/?fbclid=IwAR34oSAZhlzOax4GHmz-tl1CtFkt-DPNZQcT1RHqBnqgb6cQiyBMBEaLf_A#"
                   >
                     Careers
-                  </a>
+                  </Link>
                 </li>
                 <li className="flex items-baseline">
-                  <a
+                  <Link
                     className="text-gray-600 inline-block w-full hover:text-emerald-500"
                     href="/?fbclid=IwAR34oSAZhlzOax4GHmz-tl1CtFkt-DPNZQcT1RHqBnqgb6cQiyBMBEaLf_A#"
                   >
                     Latest news
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -59,36 +60,36 @@ const Footer = () => {
               </h3>
               <ul className="text-sm lg:text-15px flex flex-col space-y-3">
                 <li className="flex items-baseline">
-                  <a
+                  <Link
                     className="text-gray-600 inline-block w-full hover:text-emerald-500"
                     href="/search?Category=fish--meat"
                   >
                     Fish &amp; Meat
-                  </a>
+                  </Link>
                 </li>
                 <li className="flex items-baseline">
-                  <a
+                  <Link
                     className="text-gray-600 inline-block w-full hover:text-emerald-500"
                     href="/search?Category=drinks"
                   >
                     Soft Drinks
-                  </a>
+                  </Link>
                 </li>
                 <li className="flex items-baseline">
-                  <a
+                  <Link
                     className="text-gray-600 inline-block w-full hover:text-emerald-500"
                     href="/search?Category=baby-care"
                   >
                     Baby Care
-                  </a>
+                  </Link>
                 </li>
                 <li className="flex items-baseline">
-                  <a
+                  <Link
                     className="text-gray-600 inline-block w-full hover:text-emerald-500"
                     href="/search?Category=beauty--health"
                   >
                     Beauty &amp; Health
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -99,43 +100,43 @@ const Footer = () => {
 
               <ul className="text-sm lg:text-15px flex flex-col space-y-3">
                 <li className="flex items-baseline">
-                  <a
+                  <Link
                     className="text-gray-600 inline-block w-full hover:text-emerald-500"
                     href="/?fbclid=IwAR34oSAZhlzOax4GHmz-tl1CtFkt-DPNZQcT1RHqBnqgb6cQiyBMBEaLf_A#"
                   >
                     Dashboard
-                  </a>
+                  </Link>
                 </li>
                 <li className="flex items-baseline">
-                  <a
+                  <Link
                     className="text-gray-600 inline-block w-full hover:text-emerald-500"
                     href="/?fbclid=IwAR34oSAZhlzOax4GHmz-tl1CtFkt-DPNZQcT1RHqBnqgb6cQiyBMBEaLf_A#"
                   >
                     My Orders
-                  </a>
+                  </Link>
                 </li>
                 <li className="flex items-baseline">
-                  <a
+                  <Link
                     className="text-gray-600 inline-block w-full hover:text-emerald-500"
                     href="/?fbclid=IwAR34oSAZhlzOax4GHmz-tl1CtFkt-DPNZQcT1RHqBnqgb6cQiyBMBEaLf_A#"
                   >
                     Recent Orders
-                  </a>
+                  </Link>
                 </li>
                 <li className="flex items-baseline">
-                  <a
+                  <Link
                     className="text-gray-600 inline-block w-full hover:text-emerald-500"
                     href="/?fbclid=IwAR34oSAZhlzOax4GHmz-tl1CtFkt-DPNZQcT1RHqBnqgb6cQiyBMBEaLf_A#"
                   >
                     Updated Profile
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
             <div className="pb-3.5 sm:pb-0 col-span-1 md:col-span-2 lg:col-span-3">
-              <a className="mr-3 lg:mr-12 xl:mr-12" rel="noreferrer" href="/">
+              <Link className="mr-3 lg:mr-12 xl:mr-12" rel="noreferrer" href="/">
                 <Image src={footerLogo} alt="footer logo" />
-              </a>
+              </Link>
               <p className="leading-7 font-sans text-sm text-gray-600 mt-3">
                 <span>
                   987 Andre Plain Suite High Street 838, Lake Hestertown, USA
@@ -154,7 +155,7 @@ const Footer = () => {
                 </span>
                 <ul className="text-sm flex">
                   <li className="flex items-center mr-3 transition ease-in-out duration-500">
-                    <a
+                    <Link
                       aria-label="Social Link"
                       rel="noreferrer"
                       target="_blank"
@@ -162,10 +163,10 @@ const Footer = () => {
                       href="https://www.facebook.com"
                     >
                       <FacebookIcon />
-                    </a>
+                    </Link>
                   </li>
                   <li className="flex items-center mr-3 transition ease-in-out duration-500">
-                    <a
+                    <Link
                       aria-label="Social Link"
                       rel="noreferrer"
                       target="_blank"
@@ -173,10 +174,10 @@ const Footer = () => {
                       href="https://twitter.com"
                     >
                      <TwitterIcon />
-                    </a>
+                    </Link>
                   </li>
                   <li className="flex items-center mr-3 transition ease-in-out duration-500">
-                    <a
+                    <Link
                       aria-label="Social Link"
                       rel="noreferrer"
                       target="_blank"
@@ -184,10 +185,10 @@ const Footer = () => {
                       href="https://www.pinterest.com"
                     >
                       <PinterestIcon />
-                    </a>
+                    </Link>
                   </li>
                   <li className="flex items-center mr-3 transition ease-in-out duration-500">
-                    <a
+                    <Link
                       aria-label="Social Link"
                       rel="noreferrer"
                       target="_blank"
@@ -195,10 +196,10 @@ const Footer = () => {
                       href="https://www.linkedin.com"
                     >
                       <LinkedinIcon />
-                    </a>
+                    </Link>
                   </li>
                   <li className="flex items-center mr-3 transition ease-in-out duration-500">
-                    <a
+                    <Link
                       aria-label="Social Link"
                       rel="noreferrer"
                       target="_blank"
@@ -206,7 +207,7 @@ const Footer = () => {
                       href="https://www.whatsapp.com"
                     >
                       <WhatsappIcon />
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -231,14 +232,14 @@ const Footer = () => {
         <div className="mx-auto max-w-screen-2xl px-3 sm:px-10 flex justify-center py-4">
           <p className="text-sm text-gray-500 leading-6">
             Copyright 2022 @{" "}
-            <a
+            <Link
               target="_blank"
               rel="noopener noreferrer"
               className="text-emerald-500"
               href="https://themeforest.net/user/htmllover"
             >
               HtmlLover
-            </a>
+            </Link>
             , All rights reserved.
           </p>
         </div>

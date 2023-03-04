@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
-import img from "../../images/cta/delivery-boy.png"
+import img from "../../images/cta/delivery-boy.png";
+import Link from "next/link";
 
 const CTA = () => {
   return (
@@ -23,12 +24,12 @@ const CTA = () => {
                   special offer. See Our latest discounted products from here
                   and get a special discount.
                 </p>
-                <a
+                <Link
                   className="lg:w-1/4 text-xs font-inter font-medium inline-block mt-5 px-8 py-3 bg-emerald-500 text-center text-white rounded-full hover:text-white hover:bg-emerald-600"
                   href="/index#downloadApp"
                 >
                   Download App
-                </a>
+                </Link>
               </div>
               <div className="w-1/5 flex-grow hidden lg:flex md:flex md:justify-items-center lg:justify-end">
                 <Image src={img} alt="" />
