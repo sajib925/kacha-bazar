@@ -95,7 +95,7 @@ const Header = () => {
           isActive ? "right-0" : "-right-[100%]"
         }`}
       >
-        <div className="fixed bg-black ease-out duration-300 opacity-100"></div>
+        <div className="fixed bg-black ease-out duration-300 opacity-100 w-full h-full"></div>
         <CartPopup />
       </div>
     </header>

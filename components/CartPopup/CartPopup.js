@@ -15,7 +15,7 @@ const CartPopup = () => {
   const cartState = useSelector((state) => state.cart.items);
 
   return (
-    <div className="min-h-screen w-[320px] sm:w-[420px] px-4">
+    <div className="min-h-screen w-[320px] sm:w-[420px]">
       <div className="flex flex-col w-full min-h-screen justify-between items-middle bg-white rounded cursor-pointer">
         <div className="w-full flex justify-between items-center relative px-5 py-4 border-b bg-indigo-50 border-gray-100">
           <h2 className="font-semibold font-inter text-lg m-0 text-heading flex items-center">
@@ -35,7 +35,7 @@ const CartPopup = () => {
           </button>
         </div>
 
-        <div className="overflow-y-scroll flex-grow scrollbar-hide w-full min-h-full">
+        <div className="overflow-auto flex-grow scrollbar-hide h-[700px] ">
           {cartState.map((item) => (
             <div
               className="group w-full h-auto flex justify-start items-center gap-x-[5px] bg-white py-3 px-4 border-b hover:bg-gray-50 transition-all border-gray-100 relative last:border-b-0"
